@@ -27,7 +27,7 @@ section article{
 nav{
 	width: 24%;
     height: 60px;
-    background: #e05656;
+	background: #bcbcbc;
     padding: 10px;
 	float: left;
 	text-align: center;
@@ -35,7 +35,7 @@ nav{
 header{
     width: 76%;
     height: 60px;
-    background: #e05656;
+	background: #bcbcbc;
 
     padding: 10px;
 	float: right;
@@ -95,7 +95,7 @@ tbody tr td a:hover{
 	margin:0px;
 	padding:0px;
 	font-family: verdana;
-	color:#bcbcbc;
+	color: black;
 }
 
 
@@ -106,7 +106,7 @@ div#barra-lateral{
 	position:fixed;
 	width:60px;
 	height:100%;
-	background: #e05656;
+	background: #bcbcbc;
 	overflow:hidden;
 	-webkit-transition: width 0.5s cubic-bezier(.61,.01,.37,1);
 }
@@ -201,9 +201,45 @@ img#foto-contenedor-1{
 .clearfix{
         clear: both;
 }
+.dark-mode-button{
+	
+	position: fixed;
+	top: 20px;
+    left: 600px;
+    padding: 20px;
+    background: white;
+    
+}
 
+html.dark-mode{
+    filter: invert(100%);
+}
 
+html.dark-mode #notocar{
+    filter: invert(100%);
+}
+html.dark-mode .content-search{
+    filter: invert(100%);
+}
+html.dark-mode .content-table{
+    filter: invert(100%);
+}
+html.dark-mode tbody tr td a{
+	filter: invert(100%);
+}
+html.dark-mode #temp{
+	filter: invert(100%);
+}
+html.dark-mode .dark-mode-button{
+	filter: invert(100%);
+}
 
+html.dark-mode .notranslate{
+	filter: invert(100%);
+}
+html.dark-mode #notoca{
+    filter: invert(100%);
+}
 
 
 

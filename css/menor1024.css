@@ -231,25 +231,39 @@ img#foto-contenedor-1{
     
 }
 
-html.dark-mode{
+
+html.dark-mode {
     filter: invert(100%);
 }
 
 html.dark-mode #notocar{
     filter: invert(100%);
 }
-html.dark-mode .content-search{
-    filter: invert(100%);
+html.dark-mode div.content-search{
+    
 }
 html.dark-mode .content-table{
-    filter: invert(100%);
+    
 }
-html.dark-mode tbody tr td a{
-	filter: invert(100%);
+html.dark-mode #input-search{
+    
+}
+html.dark-mode, tbody tr td a{
+	
 }
 html.dark-mode #temp{
 	filter: invert(100%);
 }
 html.dark-mode .dark-mode-button{
+	filter: invert(100%);
+}
+
+html.dark-mode .notranslate{
+	filter: invert(100%);
+}
+html.dark-mode #notoca{
+    filter: invert(100%);
+}
+html.dark-mode tbody tr td a:hover{
 	filter: invert(100%);
 }

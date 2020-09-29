@@ -163,7 +163,16 @@ p.title-menu{
 	margin-left:60px;
 	line-height: 40px;
 }
-
+#notocar{
+	
+		/*object-fit: cover;*/
+	   height: 121px;
+	   width: 133px;
+	   border-radius: 50%;
+	   box-shadow: -5px -5px 10px  rgba(255,255,255,0.05),
+		5px 5px 15px rgba(0,0,0,0.5);
+    
+}
 /*body*/
 
 div#body{
@@ -211,7 +220,7 @@ img#foto-contenedor-1{
     
 }
 
-html.dark-mode *(#notocar){
+html.dark-mode {
     filter: invert(100%);
 }
 
@@ -230,9 +239,7 @@ html.dark-mode #input-search{
 html.dark-mode, tbody tr td a{
 	filter: invert(100%);
 }
-html.dark-mode #notocar{
-		filter: invert(100%);
-}
+
 html.dark-mode #temp{
 	filter: invert(100%);
 }

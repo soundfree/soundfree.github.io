@@ -94,34 +94,45 @@
     
 </header>
 <section>
-    <h2 style="color:black; font-size: 20px;">Lo mas nuevo</h2>
+    <label for="dark-mode" class="dark-mode-button">
+          
+        <input id="dark-mode" type="checkbox" 
+        onclick="document.documentElement.classList.toggle('dark-mode')">
+        Ver modo oscuro
+    </label>
+     
+    <h2 style="color:black; font-size: 20px; top: 20px;
+	left: 20px;
+    padding: 20px;" id="temp">Lo mas nuevo</h2>
     <article > 
         <span class="notranslate"><h2>seleccion del creador</h2></span>
         
         
-        <a href="selecciondecreador"><img src="css/pictures/musica.png" ></img></a>
+        <a href="selecciondecreador"><img id="notocar" src="css/pictures/musica.png" ></img></a>
 
     </article>
 
     <article>
         <span class="notranslate"><h2>Gizmo Syn Cole</h2></span>
-        <a href="syncole"><img src="css/pictures/musica.png" ></img></a>
+        <a href="syncole"><img id="notocar" src="css/pictures/musica.png" ></img></a>
 
     </article>
     <article> 
         <span class="notranslate"><h2>Necozilla</h2></span>
         
         
-        <a href="necozilla"><img src="css/pictures/musica.png" ></img></a>
+        <a href="necozilla"><img id="notocar" src="css/pictures/musica.png" ></img></a>
 
     </article>
     <article > 
         <span class="notranslate"><h2>Marin Hoxha  Eternal</h2></span>
         
         
-        <a href="MarinHoxhaEternal"><img src="css/pictures/musica.png" ></img></a>
+        <a href="MarinHoxhaEternal"><img id="notocar" src="css/pictures/musica.png" ></img></a>
 
     </article>
+ 
+     
 </section>
 <div id="barra-lateral">
     <div id="logo-menu">
@@ -153,6 +164,8 @@
 <script src="js/search.js"></script>
 
 <div class="clearfix"></div>
+
+ 
 
 
 

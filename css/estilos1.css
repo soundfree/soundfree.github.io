@@ -63,7 +63,7 @@ header{
 
 .content-table{
     width: 40%;
-    max-height: 200px;
+	max-height: 200px;
     height: auto;
     background: rgba(0,0,0,0.3);
     margin-left: 10px;
@@ -80,7 +80,7 @@ header{
 tbody tr td a{
     display: block;
     padding: 10px;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
@@ -211,21 +211,27 @@ img#foto-contenedor-1{
     
 }
 
-html.dark-mode{
+html.dark-mode *(#notocar){
     filter: invert(100%);
 }
 
-html.dark-mode #notocar{
-    filter: invert(100%);
-}
-html.dark-mode .content-search{
+
+html.dark-mode div.content-search{
     filter: invert(100%);
 }
 html.dark-mode .content-table{
+	filter: invert(100%);
+    
+    
+}
+html.dark-mode #input-search{
     filter: invert(100%);
 }
-html.dark-mode tbody tr td a{
+html.dark-mode, tbody tr td a{
 	filter: invert(100%);
+}
+html.dark-mode #notocar{
+		filter: invert(100%);
 }
 html.dark-mode #temp{
 	filter: invert(100%);
@@ -240,6 +246,10 @@ html.dark-mode .notranslate{
 html.dark-mode #notoca{
     filter: invert(100%);
 }
+html.dark-mode tbody tr td a:hover{
+	filter: invert(100%);
+}
+
 
 
 

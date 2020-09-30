@@ -230,8 +230,6 @@ html.dark-mode div.content-search{
 }
 html.dark-mode .content-table{
 	filter: invert(100%);
-    
-    
 }
 html.dark-mode #input-search{
     filter: invert(100%);
@@ -245,13 +243,6 @@ html.dark-mode #temp{
 }
 html.dark-mode .dark-mode-button{
 	filter: invert(100%);
-}
-
-html.dark-mode .notranslate{
-	filter: invert(100%);
-}
-html.dark-mode #notoca{
-    filter: invert(100%);
 }
 html.dark-mode tbody tr td a:hover{
 	filter: invert(100%);

@@ -272,3 +272,15 @@ html.dark-mode .dark-mode-button{
 html.dark-mode tbody tr td a:hover{
 	filter: invert(100%);
 }
+html.dark-mode div.content-search{
+    filter: invert(100%);
+}
+html.dark-mode .content-table{
+	filter: invert(100%);
+}
+html.dark-mode #input-search{
+    filter: invert(100%);
+}
+html.dark-mode, tbody tr td a{
+	filter: invert(100%);
+}

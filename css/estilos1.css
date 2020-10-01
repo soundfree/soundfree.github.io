@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: arial;
 }
-
+#notoca{
+    padding:20px ;
+}
 #mimenu{
 	display: none;
 }	
@@ -17,7 +19,7 @@ section{
 section article{
                
                 width : 30%;
-                height: 250px;
+                height: 270px;
 				text-align: center;
 				padding: 20px; 
 				float: left;
